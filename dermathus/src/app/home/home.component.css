@@ -1,0 +1,7 @@
+.content {
+    padding: 130px 20px; /* Add top padding to prevent content from hiding behind the navbar */
+    background-color: #5D101E;
+    color: white;
+    font-size: 40px;
+    height: 600px;
+}

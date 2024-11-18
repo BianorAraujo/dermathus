@@ -1,0 +1,17 @@
+@font-face {
+    font-family: MainFont;
+    src: url("assets/fonts/Acephimere Thin.otf") format('opentype');
+}
+
+@font-face {
+    font-family: LogoFont;
+    src: url("assets/fonts/Museo_Sans_300.otf") format('opentype');
+}
+
+body {
+    /* background-color: #5D101E !important; */
+    background-color: white;
+    font-family: 'MainFont', Arial, Helvetica, sans-serif !important;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,69 @@
+.content {
+    background-color: #5D101E;
+    color: white;
+    font-size: 40px;
+    height: auto;
+}
+
+.card {
+    background-color: transparent;
+    border: 0;
+}
+
+.footer-content {
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo img {
+    margin-top: -50px;
+    width: 250px;
+}
+
+.name_logo {
+    font-family: 'LogoFont', Arial, Helvetica, sans-serif !important;
+    font-size: 35px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 60px;
+    padding-left: 50px;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+
+.footer-text img {
+    width: 30px;
+    margin-right: 18px;
+}
+
+.divider {
+    transform: rotateY(180deg);
+}
+
+.div-copyright {
+    border-top: #41010c solid 0.5px;
+    background-color: #5D101E;
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-copyright P {
+    font-size: 13px;
+    margin: 0;
+}

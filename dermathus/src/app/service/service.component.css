@@ -1,0 +1,12 @@
+.content {
+    padding: 90px 20px; /* Add top padding to prevent content from hiding behind the navbar */
+    background-color: #d38f90;
+    color: #5D101E;
+    font-size: 40px;
+    height: 400px;
+}
+
+.gradient {
+    height: 200px;
+    background-image: linear-gradient(to bottom, #d38f90, #f2f2f2);
+}
