@@ -16,7 +16,7 @@
     text-align: center;
     height: 100%;
     width: 100%;
-    margin-top: 70px;
+    /* margin-top: 90px; */
 }
 
 .home-content {
@@ -27,10 +27,12 @@
     color: #f2f2f2;
     font-size: 42px;
     height: 100%;
+    padding-top: 80px;
 }
 
 .home-img {
     height: 100%;
+    padding-top: 100px;
 }
 
 .home-img img {
@@ -50,6 +52,11 @@
     .content {
         height: 100%;
         width: 100%;
+    }
+
+    .home-img {
+        height: 100%;
+        margin-bottom: -35px;
     }
 
 }

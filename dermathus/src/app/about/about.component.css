@@ -3,13 +3,21 @@ div {
 }
 
 .divider {
-    background-color: #5d101e; height: 110px;
+    background-color: #f2f2f2; height: 110px;
 }
 
 .content {
     padding: 90px 20px;
     background-color: #f2f2f2;
     color: #5D101E;
+    font-size: 40px;
+    height: 550px;
+}
+
+.content-structure {
+    padding: 90px 20px;
+    background-color: #d38f90;
+    color: #f2f2f2;
     font-size: 40px;
     height: 550px;
 }
