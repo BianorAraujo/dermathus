@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-booking',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class BookingComponent {
 
+  constructor(private router: Router) {}
+
+  navigateToCalendar() {
+    this.router.navigate(['/calendar']);
+  }
 }
