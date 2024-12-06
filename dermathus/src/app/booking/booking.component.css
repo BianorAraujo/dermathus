@@ -2,7 +2,7 @@
     padding-top: 10px;
     background-color: #9b5758;
     font-size: 26px;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@
 }
 
 .booking-content {
-    margin: 0px 0px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -60,8 +60,9 @@ a {
 
 .divider {
     transform: rotate(180deg);
-    background-color: #9b5758;
-    border:none;
+    background-color: transparent;
+    border: none;
+    margin-top: -70px;
 }
 
 .shape-fill {
@@ -70,22 +71,34 @@ a {
     transform: rotateY(0deg);
 }
 
-@media (max-width: 768px){
-    .content{
-        height: 100%;
+@media (max-width: 1200px){
+    .content {
+        height: 450px;
         width: 100%;
     }
 
-    .booking-content{
-        padding-bottom: 30px;
+    .divider {
+        margin-top: -52px;
+    }
+}
+
+@media (max-width: 768px){
+    
+
+    .booking-content {
+        padding-bottom: 51px;
     }
 
-    .booking-buttons{
+    .booking-buttons {
         width: 300px;
     }
 
-    .booking-text{
+    .booking-text {
         text-align: center;
         font-size: 18px;
+    }
+
+    .divider {
+        display: none;
     }
 }
