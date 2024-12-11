@@ -3,10 +3,28 @@
     background-color: #f2f2f2;
     color: #5D101E;
     font-size: 40px;
-    height: 400px;
+    height: 100%;
 }
 
-/* .gradient {
-    height: 200px;
-    background-image: linear-gradient(to bottom, #f2f2f2, #9b5758);
-} */
+li {
+    list-style-type: none;
+    display: flex;
+    font-size: inherit;
+    align-items: center;
+    height: 50px;
+}
+
+.list-icon {
+    display: flex;
+    font-size: inherit;
+    align-items: center;
+}
+
+.list-icon svg {
+    width: 12px;
+    height: 12px;
+}
+
+.icon-list-text {
+    margin-left: 10px;
+}

@@ -61,8 +61,10 @@ a {
 .divider {
     transform: rotate(180deg);
     background-color: transparent;
-    border: none;
-    margin-top: -70px;
+    height: 110px;
+    margin-top: -110px;
+    position: relative;
+    top: 1px;
 }
 
 .shape-fill {
@@ -75,10 +77,6 @@ a {
     .content {
         height: 450px;
         width: 100%;
-    }
-
-    .divider {
-        margin-top: -52px;
     }
 }
 
@@ -99,6 +97,6 @@ a {
     }
 
     .divider {
-        display: none;
+        top: 5px;
     }
 }

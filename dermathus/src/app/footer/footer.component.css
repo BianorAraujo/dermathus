@@ -53,6 +53,41 @@ a {
     margin-right: 18px;
 }
 
+span i {
+    color:#41010c
+}
+
+.icon-footer {
+    flex-direction: row;
+    display: flex;
+    font-size: inherit;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-footer p {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.icon-footer span {
+    font-size: 18px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    background-color: #d38f90;
+    width: 30px;
+    height: 30px;
+}
+
 .divider {
     transform: rotateY(180deg);
     margin-top: -180px;
