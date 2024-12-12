@@ -6,6 +6,14 @@
     height: 100%;
 }
 
+.contact-title {
+    padding-left: 100px;
+}
+
+.contact-title:nth-child(1) {
+    margin-bottom: 0px;
+}
+
 .card {
     background-color: transparent;
     border: 0;
@@ -23,6 +31,36 @@
 
 .contact-text {
     font-size: 20px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text p {
+    text-wrap: nowrap;
+    color: #9b5758;
+    font-weight: bold;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    font-size: inherit;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contact-item p {
+    margin-left: 10px;
+    color: #5d101e;
+    margin: 0px 20px;
+}
+
+.contact-item span {
+    color: #5d101e;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
 }
 
 .contact-map {
@@ -43,5 +81,12 @@
 
     .content {
         padding: 90px 20px 200px 20px;
+    }
+
+    .contact-title {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
     }
 }

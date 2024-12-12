@@ -81,7 +81,9 @@ a {
 }
 
 @media (max-width: 768px){
-    
+    .content {
+        padding-top: 60px;
+    }    
 
     .booking-content {
         padding-bottom: 51px;

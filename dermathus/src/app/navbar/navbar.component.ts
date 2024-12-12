@@ -26,4 +26,8 @@ export class NavbarComponent {
 	toggleNavbar() {
 		this.isNavbarOpen = !this.isNavbarOpen;
 	}
+
+	closeNavbar() {
+		this.toggleNavbar();
+	}
 }

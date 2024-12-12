@@ -90,7 +90,7 @@ span i {
 
 .divider {
     transform: rotateY(180deg);
-    margin-top: -180px;
+    margin-top: -200px;
     position: relative;
     top: 1px;
     transform: scale(1, -1);
