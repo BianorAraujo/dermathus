@@ -16,10 +16,10 @@ export class NavbarComponent {
 	const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 		if (scrollPosition > 50) {
 			this.isScrolled = true;
-			this.logoSize = '130px'; // Reduced logo size
+			this.logoSize = '130px';
 		} else {
 			this.isScrolled = false;
-			this.logoSize = '250px'; // Original logo size
+			this.logoSize = '250px';
 		}
 	}
 
