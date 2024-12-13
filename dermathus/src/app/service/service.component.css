@@ -49,13 +49,14 @@ li {
     align-items: center;
 }
 
-.list-icon svg {
-    width: 12px;
-    height: 12px;
+.list-icon i {
+    font-size: 14px;
+    color: #5D101E;
 }
 
 .icon-list-text {
     margin-left: 10px;
+    color: #5D101E;
 }
 
 @media (max-width: 1154px) {
