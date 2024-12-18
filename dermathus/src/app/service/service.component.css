@@ -1,14 +1,17 @@
 .content {
     padding: 90px 20px;
     background-color: #f2f2f2;
-    color: #5D101E;
+    color: #9b5758;
     font-size: 40px;
     height: 100%;
 }
 
 .service-title {
     padding-left: 100px;
-    /*text-shadow: 1px 1px 5px #b0b0b0; */
+}
+
+.service-title:nth-child(4) {
+    color: #9b5758
 }
 
 .card {
@@ -19,20 +22,16 @@
 .service-content {
     display: flex;
     flex-direction: row;
+    justify-self: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 50px;
+
+    min-width: 1000px;
 }
 
 .service-content div {
-    width: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.service-content div:nth-child(1) {
-    padding-left: 150px;
+    width: 300px;
+    justify-self: center;
 }
 
 li {
@@ -41,6 +40,7 @@ li {
     font-size: inherit;
     align-items: center;
     height: 50px;
+    width: 260px;
 }
 
 .list-icon {
@@ -50,13 +50,13 @@ li {
 }
 
 .list-icon i {
-    font-size: 14px;
-    color: #5D101E;
+    font-size: 6px;
+    color: #9b5758;
 }
 
 .icon-list-text {
     margin-left: 10px;
-    color: #5D101E;
+    color: #9b5758;
 }
 
 .service-content2 {
@@ -74,10 +74,10 @@ li {
     border-radius: 5%;
     padding: 20px;
     margin: 30px;
-    color: #5d101e;
+    color: #9b5758;
     box-shadow: 0px 0px 10px #777;
     
-    background: linear-gradient(to top, #f2f2f2 50%, #5d101e 50%);
+    background: linear-gradient(to top, #f2f2f2 50%, #d38f90 50%);
     background-size: 100% 200%;
     background-position: 0 100%;
     transition: all .6s ease;
@@ -100,14 +100,45 @@ li {
     margin-right: 15px;
 }
 
+.divider{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+}
+
+.elementor-divider {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+}
+
+.elementor-divider-separator {
+    width: 35%;
+    margin: 0 auto;
+    margin-left: 0;
+    direction: ltr;
+}
+
+.elementor-divider-separator {
+    display: block;
+    content: "";
+    border-block-end: 0;
+    flex-grow: 1;
+    border-block-start: 2px solid #d38f90;
+}
+
+.elementor-icon {
+    color: #d38f90;
+    font-size: 23px;
+    margin: 0px 25px;
+}
+
 @media (max-width: 1154px) {
     .service-content {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .service-content div {
-        width: 400px;
+        min-width: 500px;
+        flex-wrap: wrap;
     }
 
     .service-content div:nth-child(1) {
@@ -126,17 +157,7 @@ li {
         display: flex;
         justify-content: center;
         font-weight: bold;
-    }
-
-    .service-content {
-        display: flex;
-        justify-content: center;
-    }
-
-    .service-content div {
-        display: flex;
-        justify-content: center;
-        width: 300px;
+        text-align: center;
     }
 
     .service-content div:nth-child(1) {
