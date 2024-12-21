@@ -38,6 +38,13 @@ body {
     font-size: 20px;
 }
 
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 1920px;
+}
+
 @media (max-width: 800px) {
 
     .title {

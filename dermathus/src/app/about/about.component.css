@@ -18,6 +18,30 @@ div {
     height: 100%;
 }
 
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-content div {
+    max-width: 600px;
+    justify-self: center;
+}
+
+.about-image {
+    width: 45%;
+    margin: 20px 100px;
+}
+
+.about-image2 {
+    width: 60%;
+    margin: 20px 100px;
+    border-radius: 10%;
+}
+
 .content-structure {
     padding: 90px 20px;
     background-color: #d38f90;
