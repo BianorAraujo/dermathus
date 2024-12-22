@@ -1,5 +1,5 @@
 .content {
-    padding: 90px 20px;
+    padding: 10px 20px;
     background-color: #f2f2f2;
     color: #9b5758;
     font-size: 40px;
@@ -22,16 +22,13 @@
 .service-content {
     display: flex;
     flex-direction: row;
-    justify-self: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
-    min-width: 1000px;
+    margin-top: 30px;
 }
 
 .service-content div {
     width: 300px;
-    justify-self: center;
 }
 
 li {
@@ -62,15 +59,14 @@ li {
 .service-content2 {
     display: flex;
     flex-direction: row;
-    justify-self: center;
-    min-width: 1000px;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .service-content2 div {
-    width: 340px;
-    height: 380px;
+    max-width: 340px;
+    height: auto;
     border-radius: 5%;
     padding: 20px;
     margin: 30px;
@@ -119,9 +115,6 @@ li {
     margin: 0 auto;
     margin-left: 0;
     direction: ltr;
-}
-
-.elementor-divider-separator {
     display: block;
     content: "";
     border-block-end: 0;
@@ -137,8 +130,13 @@ li {
 
 @media (max-width: 1154px) {
     .service-content {
-        min-width: 500px;
+        min-width: 100%;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-content div {
+        width: 300px;
     }
 
     .service-content div:nth-child(1) {
@@ -146,8 +144,12 @@ li {
     }
 
     .service-content2 {
-        min-width: 500px;
+        min-width: 300px;
         flex-wrap: wrap;
+    }
+
+    .elementor-divider {
+        width: 250px;
     }
 }
 
@@ -158,6 +160,10 @@ li {
         justify-content: center;
         font-weight: bold;
         text-align: center;
+    }
+
+    .service-content div {
+        width: 200px;
     }
 
     .service-content div:nth-child(1) {

@@ -1,6 +1,6 @@
-div {
+/* div {
     margin: 0px;
-}
+} */
 
 .divider {
     background-color: transparent;
@@ -11,7 +11,7 @@ div {
 }
 
 .content {
-    padding: 90px 20px;
+    padding: 10px 20px;
     background-color: #f2f2f2;
     color: #5D101E;
     font-size: 40px;
@@ -27,8 +27,9 @@ div {
 }
 
 .about-content div {
-    max-width: 600px;
+    max-width: 500px;
     justify-self: center;
+    margin: 50px 0px;
 }
 
 .about-image {
@@ -37,9 +38,10 @@ div {
 }
 
 .about-image2 {
-    width: 60%;
-    margin: 20px 100px;
+    width: 70%;
+    margin: 20px 0px;
     border-radius: 10%;
+    box-shadow: 8px 8px 15px #8e8e8e;
 }
 
 .content-structure {

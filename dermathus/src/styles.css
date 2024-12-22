@@ -24,6 +24,7 @@ body {
 .title {
     font-family: LogoFont;
     font-size: 40px
+
 }
 
 .p1 {
@@ -42,7 +43,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    max-width: 1920px;
+    max-width: 1200px;
+    margin: 80px 0px;
+    width: 100%;
 }
 
 @media (max-width: 800px) {
