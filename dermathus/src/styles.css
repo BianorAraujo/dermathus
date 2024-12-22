@@ -1,11 +1,11 @@
 @font-face {
     font-family: MainFont;
-    src: url("assets/fonts/Acephimere Thin.otf") format('opentype');
+    src: url("assets/fonts/Acephimere.otf") format('opentype');
 }
 
 @font-face {
-    font-family: MainFontBold;
-    src: url("assets/fonts/Acephimere Bold.otf") format('opentype');
+    font-family: MainFontThin;
+    src: url("assets/fonts/Acephimere Thin.otf") format('opentype');
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #f2f2f2;
     font-family: 'MainFont', Arial, Helvetica, sans-serif !important;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 .title {
-    font-family: LogoFont;
+    font-family: MainFont;
     font-size: 40px
 
 }
