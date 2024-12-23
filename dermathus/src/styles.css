@@ -23,8 +23,8 @@ body {
 
 .title {
     font-family: MainFont;
-    font-size: 40px
-
+    font-size: 40px;
+    padding-left: 45px;
 }
 
 .p1 {
@@ -52,6 +52,7 @@ body {
 
     .title {
         font-size: 32px;
+        padding: 0px
     }
 
     .p1 {
