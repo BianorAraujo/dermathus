@@ -7,7 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavbarComponent {
   	isScrolled = false;
-  	logoSize = '250px';
+  	logoSize = '210px';
 	isNavbarOpen = false;
 
   	@HostListener('window:scroll', [])
@@ -19,7 +19,7 @@ export class NavbarComponent {
 			this.logoSize = '130px';
 		} else {
 			this.isScrolled = false;
-			this.logoSize = '250px';
+			this.logoSize = '210px';
 		}
 	}
 
