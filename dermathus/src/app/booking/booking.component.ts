@@ -11,6 +11,6 @@ export class BookingComponent {
   constructor(private router: Router) {}
 
   navigateToCalendar() {
-    this.router.navigate(['/calendar']);
+    this.router.navigate(['/agenda']);
   }
 }
