@@ -11,7 +11,7 @@
 }
 
 .content {
-    padding: 10px 20px;
+    padding: 10px 20px 50px 20px;
     background-color: #f2f2f2;
     color: #5D101E;
     font-size: 40px;
@@ -35,7 +35,7 @@
 }
 
 .about-image {
-    width: 80%;
+    width: 75%;
     margin: 20px 0px;
     border-radius: 10%;
     box-shadow: 8px 8px 15px #8e8e8e;
@@ -51,15 +51,26 @@
 }
 
 .content-structure {
-    padding: 90px 20px;
+    padding: 1px 20px;
     background-color: #d38f90;
     color: #f2f2f2;
     font-size: 40px;
-    height: 550px;
+    height: 100%;
+}
+
+.content-structure .page-content {
+    margin: 40px 0px;
 }
 
 @media (max-width: 1154px) {
     .title {
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content div {
+        max-width: 500px;
+        margin: 20px 30px;
     }
 }
