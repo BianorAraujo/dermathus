@@ -1,0 +1,69 @@
+@font-face {
+    font-family: MainFont;
+    src: url("assets/fonts/Acephimere.otf") format('opentype');
+}
+
+@font-face {
+    font-family: MainFontThin;
+    src: url("assets/fonts/Acephimere Thin.otf") format('opentype');
+}
+
+@font-face {
+    font-family: LogoFont;
+    src: url("assets/fonts/Museo_Sans_300.otf") format('opentype');
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'MainFont', Arial, Helvetica, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.title {
+    font-family: MainFont;
+    font-size: 40px;
+    padding-left: 45px;
+}
+
+.p1 {
+    font-size: 30px;
+}
+
+.p2 {
+    font-size: 25px;
+}
+
+.p3 {
+    font-size: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 1200px;
+    margin: 80px 0px;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+
+    .title {
+        font-size: 32px;
+        padding: 0px
+    }
+
+    .p1 {
+        font-size: 25px;
+    }
+
+    .p2 {
+        font-size: 21px;
+    }
+
+    .p3 {
+        font-size: 16.5px;
+    }
+}
