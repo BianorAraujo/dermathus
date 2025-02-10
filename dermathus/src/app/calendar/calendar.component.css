@@ -1,0 +1,55 @@
+.div-main {
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.div-top {
+    background-color: #5d101e;
+    height: 50px;
+}
+
+.div-button {
+    position: fixed;
+}
+
+.btn-back {
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    background-color: #5d101e;
+    color: #f2f2f2;
+    border: none;
+    font-size: 15px;
+}
+
+.calendly-inline-widget {
+    min-width: 320px;
+    height: 700px;
+}
+
+@media (max-width: 664px) {
+    .div-button {
+        position: relative;
+    }
+
+    .btn-back {
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 25px;
+        width: 70px;
+        height: 25px;
+        background-color: #5d101e;
+        color: #f2f2f2;
+        border: none;
+        font-size: 10px;
+    }
+
+    .div-top {
+        background-color: #5d101e;
+        height: 20px;
+    }
+}
