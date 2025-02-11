@@ -1,28 +1,38 @@
 # Dermathus
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+![GitHub deployments](https://img.shields.io/github/deployments/BianorAraujo/dermathus/GitHub-pages?label=deploy) ![last-commit](https://badgen.net/github/last-commit/BianorAraujo/dermathus) ![open-issues](https://badgen.net/github/open-issues/BianorAraujo/dermathus)
 
-## Development server
+Dermathus is the first veterinary clinic specialized in the diagnosis and treatment of dermatological and allergic diseases in dogs and cats in the city of Guanambi, Bahia in Brazil, offering a unique approach focused on the well-being of your best friends.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Visit the website](https://www.dermathus.com.br)
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Angular 16
+* Bootstrap
+* HTML5
+* CSS3
 
-## Build
+## Demos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Browser
 
-## Running unit tests
+<img width="1423" alt="image" src="https://github.com/user-attachments/assets/65434850-7c09-425e-ab9a-8c7e2ade211c" />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Mobile
 
-## Running end-to-end tests
+<img width="361" alt="image" src="https://github.com/user-attachments/assets/4a1bccb5-fd8f-486e-bd56-4ad008dd3e2e" />
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/61a9456d-76a6-4fed-908e-6066c2bb6589" />
 
-## Further help
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/69262b21-4653-4647-8eb2-07b1c8a26b46" />
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img width="363" alt="image" src="https://github.com/user-attachments/assets/eea91272-76db-469d-b14a-9ff45cbe4c77" />
+
+
+
+
+
+
+
 
