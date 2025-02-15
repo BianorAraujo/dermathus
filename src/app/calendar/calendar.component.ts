@@ -13,7 +13,7 @@ export class CalendarComponent {
   
   	ngOnInit(): void {
     	window.Calendly.initInlineWidget({
-			url: 'https://calendly.com/dermathus-teste/consulta?hide_gdpr_banner=1',
+			url: 'https://calendly.com/dermathus?text_color=5d101e&primary_color=5d101e',
 			parentElement: document.querySelector('.calendly-inline-widget'),
     	});
   	}
