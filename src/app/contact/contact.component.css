@@ -87,4 +87,8 @@
         justify-content: center;
         font-weight: bold;
     }
+
+    .p4 {
+        font-family: 'MainFontThin', Arial, Helvetica, sans-serif !important;
+    }
 }

@@ -144,6 +144,7 @@ span i {
 
     .footer-text {
         padding-left: 0px;
+        font-family: 'MainFontThin', Arial, Helvetica, sans-serif !important;
     }
 
     .div-copyright {

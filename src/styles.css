@@ -58,6 +58,9 @@ body {
 
 @media (max-width: 800px) {
 
+    body {
+        font-family: 'MainFont', Arial, Helvetica, sans-serif !important;
+    }
     .title {
         font-size: 32px;
         padding: 0px
@@ -72,6 +75,10 @@ body {
     }
 
     .p3 {
+        font-size: 16.5px;
+    }
+
+    .p4 {
         font-size: 16.5px;
     }
 }
