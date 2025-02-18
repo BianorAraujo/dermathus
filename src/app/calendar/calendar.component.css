@@ -12,6 +12,7 @@
 
 .div-button {
     position: fixed;
+    z-index: 999;
 }
 
 .btn-back {
