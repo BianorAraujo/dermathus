@@ -12,10 +12,10 @@ export class CalendarComponent {
   	constructor(private router: Router) {}
   
   	ngOnInit(): void {
-    	// window.Calendly.initInlineWidget({
-		// 	url: 'https://calendly.com/dermathus?text_color=5d101e&primary_color=5d101e',
-		// 	parentElement: document.querySelector('.calendly-inline-widget'),
-    	// });
+    	window.Calendly.initInlineWidget({
+			url: 'https://calendly.com/dermathus?hide_gdpr_banner=1&text_color=5d101e&primary_color=5d101e',
+			parentElement: document.querySelector('.calendly-inline-widget'),
+    	});
   	}
 
   	navigateToHome() {
