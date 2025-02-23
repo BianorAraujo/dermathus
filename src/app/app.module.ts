@@ -11,6 +11,7 @@ import { ServiceComponent } from './service/service.component';
 import { BookingComponent } from './booking/booking.component';
 import { ContactComponent } from './contact/contact.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     ServiceComponent,
     BookingComponent,
     ContactComponent,
-    CalendarComponent
+    CalendarComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
