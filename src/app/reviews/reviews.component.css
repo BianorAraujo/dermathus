@@ -1,0 +1,22 @@
+.content {
+    padding: 10px 20px 250px 20px;
+    background-color: #f2f2f2;
+    color: #5D101E;
+    height: 100%;
+}
+
+.remove-logo {
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    position: relative;
+    background-color: #f2f2f2;
+    margin-top: -50px;
+}
+
+  @media (max-width: 768px) {
+
+    .content {
+        padding: 10px 20px 160px 20px;
+    }
+}
